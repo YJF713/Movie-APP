@@ -1,0 +1,41 @@
+{
+  "usingComponents": {
+    "van-rate": "@vant/weapp/rate/index",
+    "van-icon": "@vant/weapp/icon/index",
+    "van-collapse": "@vant/weapp/collapse/index",
+  "van-collapse-item": "@vant/weapp/collapse-item/index"
+    
+  },
+  "pages": [
+    "pages/index/index",
+    "pages/rank",
+    "pages/rank/rank",
+    "pages/my/my"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#fff"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/tabBar/index.jpg",
+        "selectedIconPath": "images/tabBar/index-how.jpg"
+      },
+      {
+        "pagePath": "pages/rank/rank",
+        "text": "榜单",
+        "iconPath": "images/tabBar/rank.jpg",
+        "selectedIconPath": "images/tabBar/rank-how.jpg"
+      },
+      {
+        "pagePath":"pages/my/my",
+        "text":"我的",
+        "iconPath":"images/tabBar/my.jpg",
+        "selectedIconPath": "images/tabBar/my-how.jpg"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
